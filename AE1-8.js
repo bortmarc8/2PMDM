@@ -1,16 +1,23 @@
-function validar(input){
-	if (input <= 12 && input >= 1) {return false}else{return true}
-}
-
-salir = false
+let salir = false;
+let input;
+let numSuerte = Math.floor(Math.random() * 12) + 1  
 do {
-  readline.question('Escribe un número', num => {
-  if (validar(${num}))
-  	{
-  	salir = true
-  	}
+  input = prompt("Introduce un número de 1 a 12");
+  if (input <= 12 && input >= 1)
+  {
+    salir = true;
+
+    if (input == numSuerte)
+    {
+      console.log("Felicidades, has acertado");
+    }
+    else
+    {
+      console.log("No has acertado, el número era " + numSuerte + " más suerte en la proxima");
+    }
+  }
   else
-  	{
-  	salir = false
-  	}
-  }} while (!salir);
+  {
+    alert("El número introducido no está dentro del rango especificado");
+  }
+} while (!salir);
