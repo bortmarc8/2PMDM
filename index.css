@@ -1,0 +1,31 @@
+p{
+	font-size: 50%;
+}
+
+a{
+	color: black;
+  	text-decoration: none; 
+}
+
+body{
+	background-color: silver;
+	font-family: sans-serif;
+}
+
+button{
+	border-radius: 8px;
+	background-color: blue;
+	color: white;
+}
+
+img{
+	display: block;
+	height: 200px;
+	width: 300px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 12px;
+}
