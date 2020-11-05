@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assistant index</title>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='CSS/index.css'>
+	<meta name='description' content='Index de la aplicación asistente para la recopilación de datos de un usuario.'>
+	<script type='text/javascript' src="index.js"></script>
+</head>
+<body>
+	<div class='mainDivDescription'>
+		<div id='screen1' class='screen'>
+			<center>
+				<h2 class='header'>Instrucciones de uso</h2>
+			</center>
+			<p><b>Paso 1:</b> Formulario de solicitud de datos; Se introducirán los datos en el sistema</p>
+			<p><b>Paso 2:</b> Confirmación de datos; Se confirmarán que los datos introducidos sean corretos o se volverá para modificarlos</p>
+			<p><b>Paso 3:</b> Confirmación; Se confirmará el envio del envío</p>
+			<br>
+			<p><b>Callback URL: </b> <input style='width: 60%;' type='text' id='callBackURL' placeholder='Callback URL' required></p>
+		</div>
+		<div id='screen2' class='screen'>
+			<center>
+				<h2 class='header'>Formulario de solicitud de datos</h2>
+			</center>
+			<p><b>Nombre y apellidos: </b><br><input style='width: 100%;' type='text' id='tbNameSurname' required></p>
+			<p><b>Fecha de nacimiento: </b><br><input style='width: 100%;' type='date' id='birthDate' required></p>
+			<p><b>Dirección: </b><br><input style='width: 100%;' type='text' id='direction'></p>
+			<p><b>Código postal: </b><br><input style='width: 100%;' type='number' id='postalCode' required></p>
+			<p><b>Provincia: </b><br>
+				<select style='width: 100%;' type='o' id='textProvince' required>
+					<option>Valencia</option>
+					<option>Alicante</option>
+					<option>Castellón</option>
+				</select>
+			</p>
+			<p><b>Municipio: </b><br><input style='width: 100%;' type='text' id='textTown' required></p>
+		</div>
+		<div id='screen3' class='screen'></div>
+		<div id='screen4' class='screen'></div>
+		<div class='navContainer'>
+			<button class='secondaryButton' id='btnBack'>Volver</button>
+			<div style='width: 100%;'></div>
+			<button class='primaryButton' id='btnNext'>Siguiente</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "pmdm-ae3",
+  "version": "0.1.0",
+  "description": "Aplicación asistente para la recopilación de datos de un usuario.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bortmarc8/2PMDM.git"
+  },
+  "keywords": [
+    "PMDM",
+    "AE3",
+    "JavaScript",
+    "NPM",
+    "DOM",
+    "Assistant"
+  ],
+  "author": "Mark Bort Tomás - maboto01@floridauniversitaria.es",
+  "license": "AFL-3.0",
+  "bugs": {
+    "url": "https://github.com/bortmarc8/2PMDM/issues"
+  },
+  "homepage": "https://github.com/bortmarc8/2PMDM#readme"
+}

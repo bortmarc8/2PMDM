@@ -1,0 +1,62 @@
+.error{
+	background-color: grey;
+	color: salmon;
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+}
+
+.primaryButton{
+	background-color: blue;
+	border-radius: 3px;
+	color: white;
+}
+
+.secondaryButton{
+	background-color: lightsalmon;
+	border-radius: 3px;
+	color: black;
+}
+
+.screen{
+	margin: 50px;
+}
+
+.mainDivDescription{
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+.header{
+	font-family: sans-serif;
+	color: #5d5d5d;
+}
+
+.navContainer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+html{
+	background-image: url("../Resources/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+button{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #5d5d5d;
+}
+
+p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #5d5d5d;
+}
